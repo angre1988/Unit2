@@ -15,6 +15,20 @@ public class Main {
 
         System.out.println("Next exercise:");
 
+        Exercise3 test2 = new Exercise3();
+
+        System.out.println(test2.i);
+        System.out.println(test2.d);
+        System.out.println(test2.b);
+
+        System.out.println("Next exercise:");
+
+        Exercise6 x = new Exercise6();
+        System.out.println(x.storage("hi"));
+
+
+
+
 
     }
 }
